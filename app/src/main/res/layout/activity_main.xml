@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="resume"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal"
+            android:layout_margin="10dp"
+            android:textSize="25dp"/>
+
+
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"/>
+
+        <EditText
+            android:id="@+id/txtbirthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DD/MM/YYYY"/>
+
+        <EditText
+            android:id="@+id/txtadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Aderess"/>
+
+        <EditText
+            android:id="@+id/txtcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="contect"/>
+
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aducation"
+            android:layout_margin="10dp"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/txtclg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Collage"/>
+
+        <EditText
+            android:id="@+id/txtunivarcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Univarcity"/>
+
+        <EditText
+            android:id="@+id/txtdegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Degree"/>
+
+        <EditText
+            android:id="@+id/txtpassingY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Passing year"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Experience"
+            android:layout_margin="10dp"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/txtexperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expertise"
+            android:layout_margin="10dp"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/txtexpertise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:layout_margin="10dp"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/txtlanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/btns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:text="Submit"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
